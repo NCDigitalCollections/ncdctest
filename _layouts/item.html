@@ -63,6 +63,12 @@ gallery: true
                     <a target="_blank" rel="noopener" href="{{ site.cdm-url }}/digital/collection/{{ page.collectionid | default: site.cdm-collection-id }}/id/{{ page.cdmid }}" class="ml-2 btn btn-outline-info">View in Database</a>
                 </div>
             </div>
+            {%- if page.transcription -%}
+            <div class="card p-4 mt-4" style="max-height:550px;overflow-y: scroll;">
+            {% capture e %}{% include transcription/{{page.objectid}}.md %}{% endcapture %}
+            {{ e | markdownify }}
+            </div>
+            {% endif %} 
         </div>
 
         <div class="col-md-6">
