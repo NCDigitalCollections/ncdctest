@@ -4,6 +4,10 @@ gallery: true
 ---
 {%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 {%- assign compound = page.compound | remove: " " | split: ";" -%}
+{%- assign compoundrange = page.compound_range | remove: " " | split: ";" -%}
+{%- assign range_start = compoundrange | first | times: 1 -%}
+{%- assign range_end = compoundrange | last | times: 1 -%}
+{%- assign compoundrange_size = range_end | minus: range_start -%}
 
 <div class="container py-3">
     <ul class="breadcrumb">
@@ -16,7 +20,22 @@ gallery: true
         <div class="col-md-6" id="lightgallery">
             <div class="card mb-4 text-center">
                 {% if page.format contains 'image' %}
-                {% if page.compound %}
+                {% if page.compound and page.compound_range %}
+                {% for i in (range_start..range_end) %}{% unless forloop.last %}
+                {% if forloop.first %}<p class="mt-3">View {{ compound | size }} Featured Images Below of {{ compoundrange_size }} Images Total <br />  <small>Click any image to view all  images in full-screen gallery</small></p>{% endif %}
+                {% if page.compound contains i %}
+                <div class="gallery-img border pt-4" {% if forloop.first %}id='first-gal'{% endif %} data-src="{{ site.cdm-url }}/digital/iiif/{{ page.collectionid | default: site.cdm-collection-id }}/{{ i }}/full/max/0/default.jpg">
+
+                    <p><img src="{{ site.cdm-url }}/digital/iiif/{{ page.collectionid | default: site.cdm-collection-id }}/{{ i }}/full/pct:{{ site.data.theme.image-percentage-small | default: 20 }}/0/default.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
+                </div>
+                {% else %}
+                <div class="gallery-img border pt-4 d-none" {% if forloop.first %}id='first-gal'{% endif %} data-src="{{ site.cdm-url }}/digital/iiif/{{ page.collectionid | default: site.cdm-collection-id }}/{{ i }}/full/max/0/default.jpg">
+                    <p><img src="{{ site.cdm-url }}/digital/iiif/{{ page.collectionid | default: site.cdm-collection-id }}/{{ i }}/full/pct:10/0/default.jpg" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
+                </div>
+                {% endif %}
+                {% endunless %}
+                {% endfor %}
+                {% elsif page.compound %}
                 {% for c in compound %}{% unless forloop.last %}
                 <div class="gallery-img border pt-4" {% if forloop.first %}id='first-gal'{% endif %} data-src="{{ site.cdm-url }}/digital/iiif/{{ page.collectionid | default: site.cdm-collection-id }}/{{ c }}/full/max/0/default.jpg">
                     {% if forloop.first %}<p><small>Click to view images in full-screen gallery</small></p>{% endif %}
@@ -60,7 +79,7 @@ gallery: true
                     <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" class="ml-2 btn btn-outline-info">View on Timeline</a>{% endif %}
                     {% if page.latitude and page.longitude %}
                     <a href="{{ '/map.html#' | append: page.latitude  | append: ',' | append: page.longitude | relative_url}}" class="ml-2 btn btn-outline-info">View on Map</a>{% endif %}
-                    <a target="_blank" rel="noopener" href="{{ site.cdm-url }}/digital/collection/{{ page.collectionid | default: site.cdm-collection-id }}/id/{{ page.cdmid }}" class="ml-2 btn btn-outline-info">View in Database</a>
+                    <a target="_blank" rel="noopener" href="{{ site.cdm-url }}/digital/collection/{{ page.collectionid | default: site.cdm-collection-id }}/id/{{ page.cdmid }}" class="ml-2 mt-2 btn btn-outline-info">View in Database</a>
                 </div>
             </div>
             {%- if page.transcription -%}
