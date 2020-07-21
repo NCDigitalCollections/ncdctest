@@ -21,7 +21,7 @@ Make sure you have administrator privileges for the repository, otherwise you wo
 
 Make sure you have a `Gemfile` and `Gemfile.lock` file. If you copied from the ncdigitalcollections collectionbuilder template you should already have these so you shouldn't need to worry about creating them.
 
-From the base of your repo, create a folder called (don't forget the period in front of it) `.github`.
+From the base of your repo, create a folder called `.github` (don't forget the period in front of it).
 Inside this folder create a subfolder called `workflows`.
 Inside the `workflows` folder create a file called `jekyll.yml`.
 Into this `jekyll.yml` file paste the following:
@@ -61,7 +61,7 @@ Close and commit the `jekyll.yml` file.
 
 Create a personal access token here, https://github.com/settings/tokens.
 Give it access to public repos.
-Copy the key (you can only see the key once so you need to be sure to do it at this point).
+Copy the key (you can only see the key once so you need to be sure to copy it at this point).
 
 In your repository, go to Settings > Secrets. 
 Select "New secret" (top right button) and name it exactly `JEKYLL_PAT`.
