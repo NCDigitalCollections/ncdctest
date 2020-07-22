@@ -11,7 +11,7 @@ permalink: /about.html
 
 This website pulls together previously digitized state publications, photographs, letters, oral histories, posters, and other materials available online. The goal is to create a quick, easy to use introduction to women’s history in North Carolina as part of “She Changed the World: NC Women Breaking Barriers,” an initiative by the North Carolina Department of Natural and Cultural Resources.
 
-{% include feature/card.html objectid="coll053=37" header="Future Homemakers of America" title="New Homemakers of America: History" text="Photograph of executive council and state officers." width="50" centered="true" %}
+{% include feature/card.html objectid="coll037" header="New Homemakers of America: History--Executive Council and State Officers--Photographs" title="" text="Photographs of executive council and state officers. Future Homemakers of America collection, 1929-1984." width="50" centered="true" %}
 
 ## Learn More
 
