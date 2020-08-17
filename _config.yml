@@ -29,7 +29,7 @@ author: "SLNC, SANC"
 # Organization branding
 organization-name: "State Library of North Carolina, State Archives of North Carolina"
 organization-link: https://digital.ncdcr.gov
-organization-logo-banner: https://digital.ncdcr.gov/customizations/global/images/NCDCWebsiteLogo.png
+organization-logo-banner: /assets/img/logo-ncdc-white.png
 organization-logo-nav: https://digital.ncdcr.gov/customizations/global/images/NCDCWebsiteLogo.png
 
 ##########
