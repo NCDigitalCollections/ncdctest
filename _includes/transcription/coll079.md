@@ -1,15 +1,15 @@
-## Transcript of Juanita H. Webster Interview  
-## MilColl OH 914
-## August 25, 2001
+### Transcript of Juanita H. Webster Interview  
+### MilColl OH 914
+### August 25, 2001
 
-### Interview Information
+#### Interview Information
 Interviewer: W. Lee Johnson Jr.  
 Interview Location: Juanita Webster’s home  
 Interview Runtime: 00:44:39  
 Transcribed By: Stephanie Virsu, February 2019; Matthew M. Peek, January 2020  
 Collection: Military Veterans Oral History Collection, Military Collection, State Archives of North Carolina  
 
-### Biographical Sketch
+#### Biographical Sketch
 Juanita Hartense Hamilton was born on November 21, 1918, in Henderson County, North Carolina, to Neal William and Loveda Estelle McCrary Hamilton. Juanita’s father, a World War I veteran, was a farmer in Henderson County. 
 
 She graduated from high school in 1934 and worked briefly in a hosiery mill in Hendersonville before deciding to study nursing. She saved up money from working and moved to Washington, D.C. to live with an aunt while she attended nursing school. She trained at Gallinger Municipal Hospital in a program that lasted three years. After graduating, she worked briefly as a private duty nurse.
@@ -20,16 +20,16 @@ After Hamilton returned to the U.S., the Army sent her to nurse anesthetist scho
 
 Her husband passed away in 1981. Juanita H. Webster died on June 2, 2002. At the time of her death she was living in Penrose, North Carolina, near Brevard in Transylvania County. She was buried in the Blue Ridge Gardens of Memory Cemetery in the Pisgah Forest.
 
-### Archivist’s Note
+#### Archivist’s Note
 Transcriptions reflect the original oral history recording. Due to human and machine fallibility transcripts often contain small errors. Transcripts may not have been transcribed from the original recording medium. It is strongly suggested that researchers engage with the oral
 history recording as well as the transcript. This transcription was created as part of a public crowdsourced transcription project “North Carolina Veterans Oral History Transcription Project,” by the State Archives and State Library of North Carolina. The project was supported
 through grant funds from the Institute of Museum and Library Services under the provisions of the federal Library Services and Technology Act as administered by the State Library of North Carolina, a division of the Department of Natural and Cultural Resources.
 
-### Interview Transcript
+#### Interview Transcript
 [Interviewer Name Abbreviation: LJ]  
 [Interviewee Name Abbreviation: JW]
 
-#### Start of Interview
+##### Start of Interview
 **LJ:** This is Lee Johnson, It’s Saturday August 25th, 2001. I’m at the house of Juanita Webster. Thank you very much for taking the time to talk to me today. Let me get started with the first question. Please state your full name, the date, and place of birth, and where you were born and
 raised.
 
@@ -514,4 +514,4 @@ I don’t remember being mad or upset about anything.
 
 **JW:** Can you turn it off just a minute and I will see if I can find something.
 
-### End of Interview 
+##### End of Interview 
