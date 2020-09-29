@@ -1,15 +1,15 @@
 ### Transcript of PC1825_0053: Martha Poteet to F. M. Poteet
-#### Page 1
+#### [Page 1]
 
 June the 16 1864
 
 My Dear husband
 I seat My self this evening to write you a few lines to let you know how we are Some of us is not well me and Thomas Francis Emer Susannah Amy Jane has the bowell complaint I aint Much sick but I do hope these few lines May Reach your kind hands and find you in good health My corn looks very well Thomas will finish plowing it the second time today we hav this side the Creek to hoe My Neighbours says that if nothing happens I will Make a heap of Corn the sweet potatoes is very prety and the irish potatoes is the pretyest I ever seen I hav a mess today I wish you was hear to eat some with me I would be so glad I would not know how to behave I hav to live very hard I haint nothing Much to eat but bread and not Much of that if you was hear I would not hav to live so hard nor I woudent hav to work when I was not able My baby will be 4 weeks old Saturday Night she was born the 21 of May write to Me what to name her I had the best time I ever had and I hav bin the stoutest ever sens I haint lay in bed in day time in two Weeks today I thank the Lord that he has answerd your prayers and mine beyon what I could expected but he has all power I feel very thankfull that it is as well with you as what it is I hope that God will bless us to be spared to rais our children your Mother is well her and Jemima Come to see me yesterday Grason Dickson run away and got to Camp Vance and had to go back I dont want you to vote for vance vote 
 
-#### Page 2 
+#### [Page 2]
 
 for Holden vance is to be in Marion next Monday to speak James Neal has bought 500 bushels of corn for this County but it haint come yet and he says that when they eat it they may die and go to hell Louis Walker and Tery Walker is at home wounded your Mother says tell you howdy for her and the children sends you howdy and tell you that they hav to work very hard and wishes you was hear to help them [?????????????????????] this evening I would like to hear from you to know if you hav got hurt I am very uneasy about you I do hope and pray that God will shield you from all harm and danger and spar your life to come home to me and your little children I know that you want to see your sweet little baby I would be very glad to see you if I could but I cant nor I dont know whether I ever will or not God knows I dont you dont know what a hard time I hav I am ruined if you dont never come home I cant work another year as hard as I hav this if the children was not as good as they are I dont know what I would do the Lord has blessed us and I hope he will continue to bless us while we are separated and bring us together agin in this life pray for us my Dear that we dont perish thread is 100 dollars Cotten is two dollars apound I dont know what I am to do but I will do the best I can and trust in God for help all of our help comes from him write to me soon wen I can hear fom you and hear that you are well it dos me a heap of good May the lord bless and save you is the prayer of your desolate Wife farwell my Dear husband M. A. E. Poteet to her loving husband F. M. Poteet God bless and save you 
 
-#### Page 3 
+#### [Page 3]
 
 the sise of the babys hand *[Transcribers Note: The image is significantly larger than the actual cutout of the baby's hand.]*
