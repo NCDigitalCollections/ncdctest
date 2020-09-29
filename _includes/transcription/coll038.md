@@ -11,7 +11,7 @@ has gone back  Liutenant   garron come after them   and got about half of them  
 
 #### [page 3]
 
-and rube was wouned in the   shoulders and I dont no   whear he is  I hear that   the men is runing a   way fast hear of late and   the malishey is out a   trying to gether them   up but tha come slowe   speed at it for tha aint   gott but four or   five yet and tha hav   been gone aweek and tha   say that the runaways   sends word to Col   <??t?> ned that tha wil   meet him in any old   field and take afight   with him and his men   but tha aint done it yet   nor I dont beleive tha   will for I thinck tha    are [boull?]; afraid   
+and rube was wouned in the   shoulders and I dont no   whear he is  I hear that   the men is runing a   way fast hear of late and   the malishey is out a   trying to gether them   up but tha come slowe   speed at it for tha aint   gott but four or   five yet and tha hav   been gone aweek and tha   say that the runaways   sends word to Col   [??t?] ned that tha wil   meet him in any old   field and take afight   with him and his men   but tha aint done it yet   nor I dont beleive tha   will for I thinck tha    are [boull?]; afraid   
 
 #### [page 4]
 
