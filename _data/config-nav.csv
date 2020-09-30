@@ -3,9 +3,7 @@ Home,/,
 Browse,/browse.html,
 Subjects,/subjects.html,
 Locations,/locations.html,
-Timeline,
-Timeline,/timeline.html,Timeline
-Time Period,/timeperiod.html,Timeline
+Timeline,/timeline.html,
 Data,/data/,
 About,
 About the Collection,/about.html,About
