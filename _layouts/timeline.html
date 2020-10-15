@@ -3,14 +3,14 @@ layout: page
 ---
 {%- assign items = site.data[site.metadata] -%}
 {%- assign raw-dates = site.data[site.metadata] | map: 'date' | compact | uniq -%}
-{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
+{%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first | slice: 0, 3 }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last | slice: 0, 3 }}{% else %}{{ date | strip | slice: 0, 3 }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign uniqueYears = clean-years | remove: " " | split: ";" | uniq | sort -%}
 {%- if site.data.theme.year-navigation -%}
 {%- assign navYears = site.data.theme.year-navigation | split: ";" -%}
 {%- else -%}
 {%- capture navYears -%}
-{%- for i in uniqueYears -%}{%- assign t = i | modulo: site.data.theme.year-nav-increment -%}
-{%- if t == 0 -%}{{ i }}{% unless forloop.last %};{% endunless %}{% endif %}{% endfor %}{%- endcapture -%}
+{%- for i in uniqueYears -%}{%- assign t = i |  append: '0' | modulo: site.data.theme.year-nav-increment -%}
+{%- if t == 0 -%}{{ i | append: '0' }}{% unless forloop.last %};{% endunless %}{% endif %}{% endfor %}{%- endcapture -%}
 {%- assign navYears = navYears | split: ";" -%}
 {%- endif -%}
 <div class="dropdown float-right" id="year-nav">
@@ -25,13 +25,13 @@ layout: page
 
 {{ content }}
 
-<h3><a href="#{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
+<h3><a href="#{{ uniqueYears | first | append: '0' }}">{{ uniqueYears | first | append: '0' }}</a> to <a href="#{{ uniqueYears | last | append: '0' }}">{{ uniqueYears | last | append: '0' }}</a></h3>
 
 <table id="timeline" class="table table-striped">
     {% for year in uniqueYears %}
-    <tr id="{{ year }}">
+    <tr id="{{ year | append: '0' }}">
         <th>
-            <h3>{{ year }}</h3>
+            <h3>{{ year | append: '0' }}</h3>
         </th>
         <td>
             {%- assign inYear = items | where_exp: 'item', 'item.date contains year' -%}
