@@ -9,11 +9,11 @@
 #
 # site domain, full URL to the production location of your collection
 # Staging site (Github) for pilot (also uncomment baseurl)
-url: https://ncdigitalcollections.github.io
-# Production site for pilot
 #url: https://ncdigitalcollections.github.io
+# Production site for pilot
+url: https://she-changed-world.cb.ncpedia.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /ncdctest
+#baseurl: /ncdctest
 # location of code, the full url to your github repository
 source-code: https://github.com/ncdigitalcollections/ncdctest
 
@@ -26,7 +26,7 @@ title: She Changed the World
 tagline: North Carolina Women Breaking Barriers
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A curated digital collection of state publications, photos, letters, and more relating to North Carolina women’s history, from the State Library of NC and the State Archives of NC." 
+description: "This collection includes previously digitized state publications, photographs, letters, oral histories, posters, and other materials related to women's history in North Carolina." 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: "SLNC, SANC"
 # Organization branding
@@ -66,7 +66,7 @@ google-analytics-id: "UA-74844011-1"
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: true 
+noindex: false 
 
 ##########
 # BUILD SETTINGS 
