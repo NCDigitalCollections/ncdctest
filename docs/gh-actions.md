@@ -82,3 +82,11 @@ You should see a message that says "your site is published at" with the name of 
 You're all set up at this point; whenever you push a new commit the site will rebuild and you'll be able to view your live changes.
 
 For more information, see: <https://jekyllrb.com/docs/continuous-integration/github-actions/>
+
+## To turn off GitHub pages
+
+View the repository's branches.
+
+Delete the gh-pages branch.
+
+For more information, see: <https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/unpublishing-a-github-pages-site#unpublishing-a-project-site>
